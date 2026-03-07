@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dtqo6dyebmy2s"]
+
+[ext_resource type="Script" uid="uid://cew3xxhr4dvoh" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://oth2o0hhf8vo" path="res://images/character.png" id="2_g2els"]
+
+[sub_resource type="GDScript" id="GDScript_qhqgy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g2brh"]
+
+[node name="Player" type="CharacterBody2D" unique_id=139176361]
+script = ExtResource("1_g2els")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=971480194]
+position = Vector2(78, 27)
+scale = Vector2(6.392, 5)
+texture = ExtResource("2_g2els")
+script = SubResource("GDScript_qhqgy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1594933585]
+shape = SubResource("CircleShape2D_g2brh")
+debug_color = Color(0.009544039, 0.59808457, 0.7113759, 0.41960785)
