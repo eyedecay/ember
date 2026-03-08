@@ -11,8 +11,8 @@
 script = ExtResource("1_g2els")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=971480194]
-position = Vector2(78, 27)
-scale = Vector2(6.392, 5)
+position = Vector2(72, 9)
+scale = Vector2(3.2, 2.503)
 texture = ExtResource("2_g2els")
 script = SubResource("GDScript_qhqgy")
 
