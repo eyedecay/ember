@@ -8,6 +8,7 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_g2brh"]
 
 [node name="Player" type="CharacterBody2D" unique_id=139176361]
+z_index = 5
 script = ExtResource("1_g2els")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=971480194]
